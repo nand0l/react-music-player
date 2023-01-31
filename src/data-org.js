@@ -2,15 +2,6 @@ import { v4 as uuidv4 } from "uuid";
 function chillHop() {
 	return [
 		{
-			name: "Show Me Love (Sander Van Doorn Extended Mix)",
-			cover:"http://0-0-webbucket.s3-website-eu-west-1.amazonaws.com/pics/trancelogic156.jpg",
-			artist: "Armin Van Buuren ft Above & Beyond",
-			audio:"https://0-0-webbucket.s3.eu-west-1.amazonaws.com/music/Trancelogic_156-Dave_van_Weerdinge.mp3",
-			color: ["#205950", "#2ab3bf"],
-			id: uuidv4(),
-			active: true,
-		},
-		{
 			name: "Beaver Creek",
 			cover:
 				"https://chillhop.com/wp-content/uploads/2020/09/0255e8b8c74c90d4a27c594b3452b2daafae608d-1024x1024.jpg",
@@ -18,7 +9,7 @@ function chillHop() {
 			audio: "https://mp3.chillhop.com/serve.php/?mp3=10075",
 			color: ["#205950", "#2ab3bf"],
 			id: uuidv4(),
-			active: false,
+			active: true,
 		},
 		{
 			name: "Daylight",
@@ -71,7 +62,6 @@ function chillHop() {
 			active: false,
 		},
 		//ADD MORE HERE
-
 	];
 }
 

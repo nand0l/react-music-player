@@ -4,7 +4,7 @@ const Credit = () => {
 	return (
 		<CreditContainer>
 			<Link href="https://www.wilsonle.me" target="_blank">
-				Made by Wilson
+				Original was made by Wilson
 			</Link>
 			<br></br>
 			<Link href="https://github.com/WilsonLe/react-music-player" target="_blank">
