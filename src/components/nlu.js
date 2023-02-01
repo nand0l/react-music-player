@@ -2,19 +2,15 @@ import React from "react";
 import styled from "styled-components";
 const nlu = () => {
 	return (
-		<CreditContainer>
-			<Link href="https://www.wilsonle.me" target="_blank">
-				Original was made by Wilson
+		<nluContainer>
+			<Link href="https://amzazoninstructor.info" target="_blank">
+				AmazonInstructorInfo
 			</Link>
-			<br></br>
-			<Link href="https://github.com/WilsonLe/react-music-player" target="_blank">
-				Github repository
-			</Link>
-		</CreditContainer>
+		</nluContainer>
 	);
 };
 
-const CreditContainer = styled.div`
+const nluContainer = styled.div`
 	user-select: none;
 	position: fixed;
 	display: flex;

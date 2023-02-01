@@ -10,6 +10,7 @@ import Nav from "./components/Nav";
 import Credit from "./components/Credit";
 import nlu from "./components/nlu";
 // Import data
+
 import data from "./data";
 
 const App = () => {
@@ -82,7 +83,6 @@ const App = () => {
 				libraryStatus={libraryStatus}
 			/>
 			<Credit />
-			<nlu />
 			<audio
 				onLoadedMetadata={updateTimeHandler}
 				onTimeUpdate={updateTimeHandler}
@@ -90,6 +90,7 @@ const App = () => {
 				ref={audioRef}
 				src={currentSong.audio}
 			/>
+			<nlu />
 		</AppContainer>
 	);
 };
