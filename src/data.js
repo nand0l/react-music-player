@@ -3,7 +3,7 @@ function chillHop() {
 	return [
 		{
 			name: "Show Me Love (Sander Van Doorn Extended Mix)",
-			cover:"http://0-0-webbucket.s3-website-eu-west-1.amazonaws.com/pics/trancelogic156.jpg",
+			cover:"http://0-0-webbucket.s3.eu-west-1.amazonaws.com/pics/trancelogic156.jpg",
 			artist: "Armin Van Buuren ft Above & Beyond",
 			audio:"https://0-0-webbucket.s3.eu-west-1.amazonaws.com/music/Trancelogic_156-Dave_van_Weerdinge.mp3",
 			color: ["#205950", "#2ab3bf"],

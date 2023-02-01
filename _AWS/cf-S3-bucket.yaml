@@ -41,6 +41,15 @@ Resources:
               - - 'arn:aws:s3:::'
                 - !Ref MyS3Bucket
                 - /*
+          - Sid: ReadForCodeBuild
+            Effect: Allow
+            Principal: 'arn:aws:iam::643007106733:role/service-role/codebuild-react-music-player-service-role'
+            Action: '*'
+            Resource: !Join 
+              - ''
+              - - 'arn:aws:s3:::'
+                - !Ref MyS3Bucket
+                - /*
 Outputs:
   BucketURL:
     Value: !GetAtt MyS3Bucket.WebsiteURL
